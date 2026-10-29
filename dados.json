@@ -1,0 +1,72 @@
+{
+  "usuarios": [
+    {
+      "id": 3,
+      "nome": "ana",
+      "email": "teste@teste.com",
+      "idade": 18,
+      "cidade": "Porto Alegre",
+      "plano": "Essencial",
+      "interesses": ["Música", "Cinema", "Esportes"],
+      "curtidasEnviadas": [1, 4]
+    },
+    {
+      "id": 1,
+      "nome": "Henrique",
+      "email": "henriquedsgarcia@gmail.com",
+      "idade": 35,
+      "cidade": "Porto Alegre",
+      "plano": "Essencial",
+      "interesses": ["Música", "Cinema", "Livros"],
+      "curtidasEnviadas": [2]
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "email": "maria_santos@gmail.com",
+      "idade": 32,
+      "cidade": "Porto Alegre",
+      "plano": "Conexão",
+      "interesses": ["Games", "Livros", "Música"],
+      "curtidasEnviadas": [1]
+    },
+    {
+      "id": 4,
+      "nome": "Pedro",
+      "email": "pedrogds@gmail.com",
+      "idade": 19,
+      "cidade": "g",
+      "plano": "Essencial",
+      "interesses": ["Música", "Cinema", "Livros"],
+      "curtidasEnviadas": [3]
+    },
+    {
+      "id": 5,
+      "nome": "pedro",
+      "email": "pedro_dsg@gmail.com",
+      "idade": 20,
+      "cidade": "Porto Alegre",
+      "plano": "Conexão",
+      "interesses": ["Música", "Cinema", "Viagens"],
+      "curtidasEnviadas": []
+    }
+  ],
+  "matches": [
+    {
+      "usuario1": 2,
+      "usuario2": 1,
+      "mensagens": [
+        {"remetente": 2, "texto": "bom dia"},
+        {"remetente": 1, "texto": "bom dia, tudo bem?"}
+      ]
+    },
+    {
+      "usuario1": 3,
+      "usuario2": 4,
+      "mensagens": [
+        {"remetente": 3, "texto": "oi, tudo bem?"},
+        {"remetente": 4, "texto": "tudo certo e com voce?"}
+      ]
+    }
+  ]
+}
